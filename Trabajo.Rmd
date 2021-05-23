@@ -1,0 +1,263 @@
+---
+title: "ÍNDICE HUMANO DE SALUD MENTAL: CONSTRUCCION Y EVIDENCIA EMPIRICA DEL PAPEL DE LOS ESTADOS/ INDEX HUMAN OF HEALTH MENTAL: CONSTRUCCION AND EMPIRICAL EVIDENCE OF THE ROLE OF STATES"
+author: "Santiago Lopez Rodriguez , Xara Lucia Chamorro Aristizabal y Manuel Alejandro Noriega Lizarazo"
+date: "21/05/2021"
+output:
+  pdf_document: default
+  html_notebook: default
+---
+
+## Resumen
+
+En la medición de la calidad de vida, la economía ha tenido en cuenta las variables de longevidad, escolaridad e ingreso. Sin embargo, los largos confinamientos y la pandemia del SARSCOV-2 nos han mostrado que el cuidado de la salud mental es esencial para el mantenimiento de relaciones sociales y del bienestar individual. Por lo cual este documento construye el Índice Humano de Salud Mental (IHSM) una medición subjetiva de calidad de vida que usa principalmente los reportes de enfermedades mentales. Por último, se analizan las relaciones entre la desigualdad, corrupción, desarrollo y los rubros del gasto público. Obteniendo resultados contraintuitivos a nivel agregado, que se pueden explicar por sesgos en la recolección de datos y de variables omitidas.
+
+**Palabras clave:** salud mental, felicidad, desarrollo, bienestar, capacidad Estatal y desigualdad.
+
+**JEL:** C13, D63, I31, I1, J68
+
+## Abstract
+
+In measuring the quality of life, the economics have kept in mind the longevity, scholarship, and income. However, the long confinements and the pandemic SARSCOV-2 have shown to us that mental health care is essential to maintain social relationships and individual welfare. Therefore, this document builds the Human Index of Mental Health (IHSM) a subjective measurement for quality of life. It mainly uses the reported cases of mental diseases. Finally, the relationships among inequality, corruption, level of development and amounts of public expenditure. The results obtained were counterintuitive at the aggregate level, it can be explained by biases in data collection and omitted variables.
+
+**Keywords:** Mental Health, happiness, development, welfare, state capacity and inequality.
+
+**JEL:** C13, D63, I31, I1, J68
+
+## Introduccion
+
+"No es humillante ser infeliz. El sufrimiento físico a veces es humillante, pero el sufrimiento del ser no puede ser, es la vida" (Albert Camus, 1964).
+
+Anteriormente era un tabú hablar de la salud mental en nuestros hogares e incluso en claustros de las academias, por lo que sólo se le reservo espacio en centros hospitalarios y en las facultades de psicología y medicina. En contra de ello, este trabajo abre un espacio desde la perspectiva económica, postulando el Índice Humano de Salud Mental (IHSM) como una noción del nivel de calidad de vida enfocada en el estado psicológico de una sociedad, para luego, encontrar relaciones causales que determinen como la intervención estatal de algunos países pueden mejorar o deteriorar la salud mental.
+
+En este orden de ideas, se desarrolla la siguiente pregunta de investigación ¿Cómo medir la calidad de vida de una sociedad tomando como eje principal el estado de salud mental de su población? La respuesta a ello resulta relevante ahora más que nunca, porque en los últimos acontecimientos como la pandemia y la crisis económica este tema ha alcanzado el centro de la problemática pública. Donde, hemos aprendido que sin un buen cuidado de nuestra salud mental se deterioran las condiciones de calidad de vida a partir del fin de relaciones humanas necesarias para nuestra supervivencia.
+
+Asimismo, hoy estos problemas son más visibles y afectan desigualmente a toda la población, con diferente magnitud según sea la edad. En particular, las generaciones más jóvenes poseen una de las mayores tasas de mortalidad relacionadas a problemas de salud mental, lo que ha convertido al suicidio como la tercera causa de muerte entre poblaciones de 15 a 19 años según la OMS (2019). Mientras que, las personas de mediana edad poseen una tasa de 16.17 suicidios por cada 100.000 habitantes del mundo para 2017 (Our World in Data, 2017), siendo la segunda más alta por edades después de los mayores de 70.
+
+Por estos motivos, resulta pertinente el uso de políticas públicas que diseñen estrategias focalizadas, en las variables que posean un mayor impacto sobre la reducción de enfermedades psicológicas. Se analiza si las herramientas de gasto público pueden mejorar la calidad de vida y evitar el deterioro de la pandemia de salud mental que sería costoso y difícil de manejar en las décadas venideras. Asimismo, se analiza las relaciones entre el nivel de desarrollo, la corrupción y la desigualdad con la estabilidad mental, medida por el IHSM, esperando que mejores niveles de desarrollo reduzcan los reportes de salud mental, mientras que incrementos de corrupción y desigualdad los incrementen.
+
+El desarrollo de este índice subjetivo trae de primera mano resultados algo abstractos, ya que es una medida más cercana a la felicidad y al bienestar social que la dada por la teoría económica clásica. De modo que resuelve parcialmente como medir la calidad de vida según el estado de salud mental. En base a mantener controladas y en descenso las enfermedades mentales traduciéndose en una vida más digna, por ende, más feliz. Dejando solo un problema, el que los índices que constituyen el IHSM no tomen en cuenta a los individuos que poseen varias de estas enfermedades respecto a su población.
+
+De esta manera, en la primera sección se sintetiza el estado del arte, donde se analiza la literatura de lo entendido por calidad de vida y salud mental. En la segunda se abarca el análisis de datos, sus características y las fuentes de estos. En la tercera se construye el IHSM con las variables de enfermedades mentales. Luego en la cuarta se establece la metodología para estimar el efecto del Estado sobre el IHSM, este efecto Estado se desagrega en el desarrollo, corrupción, desigualdad y gasto público en grandes rasgos. Por último, se exhiben los resultados y conclusiones del estudio.
+
+## Estado del Arte
+
+El análisis de la calidad de vida normalmente tiene dos vertientes, una dada por la economía donde se busca la medición objetiva y otra por parte de las ciencias sociales -dirigidas por la psicología cuando se habla de salud mental- que la asocian a condiciones subjetivas. Estableciendo una especie de discusión de dos frentes académicos en disenso. Con una de las partes considerando el aumento de la renta y las oportunidades para la mejora de la movilidad social, como el esquema del desarrollo y el mejoramiento de la calidad de vida. En cambio, la otra usa una parametrización más cercana a la medición de la "felicidad" y el bienestar subjetivo (BS).
+
+Sin embargo, estas dos realidades académicas no persisten en la sociedad. Es simple, una mayor renta y desarrollo social objetivo no son suficientes, el ser humano necesita tener condiciones de BS para no encontrarse en panoramas de deterioro en su salud mental, que finalicen en el suicido o en la perdida de sí mismos. Por lo que autores como Argyle cree necesario el uso de mediciones basadas en tres condiciones primordiales de BS la "(1) satisfacción, (2) la frecuente experiencia de estados emocionales positivos y (3) la ausencia de depresión u otros estados negativos" (1993). Las cuales contrasta con las relaciones sociales, el ocio y el trabajo para encontrar que tan "felices" son las personas y por lo tanto cuan buena es su calidad de vida.
+
+La conclusión a la cual llega Argyle (1993) es que personas con buenas relaciones sociales, actividades de ocio asociadas con la salud física y trabajos acordes a sus gustos son más "felices" al tener menores tendencias de trastornos mentales, por lo tanto, una mejor calidad de vida. Pero no es el único panorama que el informe toca, se habla también de una medida objetiva que afecta subjetivamente la "felicidad", como lo es la salud física. En lo cual argumenta que su mal estado puede repercutir en el deterioro de la salud mental, pero condicionado a la personalidad, ya que esta hace que el ser humano sea más o menos resiliente a sus enfermedades.
+
+Así mismo la literatura empírica permite comprobar el efecto de la salud física sobre el BS. Perez et al. (2014) en ese ámbito dispone de un análisis que explica como la salud fisca se deteriora desigualmente entre países desarrollados y en vía de desarrollo durante las crisis económicas, generando problemas de malnutrición, pobreza energética y mala salud mental.
+
+No obstante, este tipo de investigaciones posee problemas en su capacidad de capturar el deterioro psicológico de las sociedades, debido a que los datos se cruzan con tasas de suicidio y los indicadores de servicios sociales. Que, si bien son aproximaciones de los efectos en "felicidad" y el papel del Estado sobre esta, no corrigen los posibles errores de recolección de datos y la pésima concepción de que el suicidio es signo de mala salud mental -relativamente cierto en muchos casos-. Porque el suicidio como tal es una decisión que dependerá del contexto en el cual se toma y no solo del estado mental de la persona. Como solución a la problemática el IHSM podría servir como un mejor proxy del BS social, ya que no depende del contexto sino de las enfermedades mentales.
+
+Pero aun así existen investigadores que tratan de corregir el problema de los datos como Evans et al. (2006), los cuales plantean que los trastornos mentales afectan la calidad de vida, basándose en como variaban las oportunidades según el grupo de personas a el cual se pertenece en el Reino Unido, que son: enfermedad mental severa (EMS), trastorno mental común (TMC) y sin trastorno (ST). El resultado es inesperado, con observaciones de múltiples errores, esto debido a que se concluye que la calidad de vida de los EMS es mejor que la del resto de grupos. Explicando que esto se debe a la existencia de sesgos subjetivos al hacer el análisis, pues su propia condición interna en los grupos influye al evaluar las oportunidades que tienen a futuro. Concluyendo que los estudios de calidad de vida que combinan muestreos de salud mental deben controlar los indicadores con los que se miden las variables para evitar caer en sesgos subjetivos.
+
+Otra investigación por el estilo de Evans et al. (2006) aborda de nuevo el BS, pero especificando la definición de Schalock (citador por Martín & Verdugo, 2002), que establece la calidad de vida más aceptada por la comunidad científica, la cual considera el bienestar emocional, relaciones interpersonales, bienestar material, desarrollo personal, bienestar físico, autodeterminación, inclusión social y derechos humanos. Encontrando que al incrementar la participación del paciente en su tratamiento mejora sus condiciones de vida, lo que implica que los servicios sociales con mayores enfoques en autodeterminación son esenciales para disminuir las enfermedades mentales. Dando relevancia a la necesidad de investigar con herramientas precisas como el IHSM para la implementación, vigilancia y aplicación de políticas sociales -en este caso de salud pública-.
+
+La necesidad de la intervención estatal por lo tanto resuena para resolver la situación de salud mental actual y como su no existencia o mal uso puede terminar afectando la calidad de vida, por la falta de prevención y cuidado de enfermedades mentales. No obstante, se debe tener cuidado al hablar de este tema usualmente tabú en la sociedad, porque muchos concluirán que la problemática solo representa a una parte de la población, por lo que la solución es cuidarlos a ellos o no hacer absolutamente nada \<\<igual solo afecta a unos pocos\>\>.
+
+Esta constante de poca visibilidad del debate de salud mental en la sociedad que se traslapa a la economía se pretende desarrolla con el IHSM, porque es necesario entenderla como una problemática pública que afecta la calidad de vida. Bien decía Argyle (1993), la renta no es lo único para ser "felices". Y sí la medición de la calidad de vida no toma en cuenta el BS, pues no se está midiendo correctamente. Entonces, para esto debemos considerar los mejores caminos que permitan la creación de herramientas como los índices compuestos, si se pretende crear una medición útil para el debate o la implementación de políticas públicas. En este camino la CEPAL (Schuschny & Soto,2009) mediante su **Guía metodológica Diseño de indicadores compuestos de desarrollo sostenible**, presta las herramientas necesarias para la creación de lo que probablemente será el primer indicador que mide la calidad de vida de forma subjetiva y objetiva.
+
+La metodología presentada por el organismo consiste en:
+
+i.  desarrollo de un marco conceptual: el cual analiza la relevancia de las variables, trata de explicar porque son importantes para el indicador y que consideraciones se están tomando para argumentar que esto es un componente primordial de lo que se mide;
+
+ii. selección de los indicadores: es una vertiente del marco conceptual pero que se enfoca en la elección de subindicadores basado en la relevancia, calidad, frecuencia y la disponibilidad al dominio público;
+
+iii. análisis multivariado: es un paso esencial por la estadística para determinar la importancia de las variables a utilizar, ya no solo en términos conceptuales sino aplicando algunos análisis matemáticos de relación entre los subíndices;
+
+iv. imputación de datos perdidos: se plantean diferentes metodologías para encontrar datos faltantes o la eliminación de filas que no afecten de forma contundente el proceso de creación del indicador, pero que permita su eficaz realización;
+
+v.  normalización de datos: es un proceso por el cual se busca que todas las variables queden en una única taxonomía para que los procesos de agregación sean posibles, por ejemplo, tener variables de PIB y porcentaje de población, eso no se puede usar si no se normaliza para crear el indicador;
+
+vi. ponderación de la información: busca asignar los pesos de las variables según se considere bajo una visión cualitativa de preguntar a expertos, con el uso de elementos estadísticos o una combinación de estas;
+
+vii. agregación de la información: es el punto culmine del proceso donde se crea el índice como tal, en este se explican los diferentes métodos para agregar sus bondades y sus deficiencias;
+
+y viii. análisis de robustez y sensibilidad: donde se trata de calibrar el indicador con el fin de comprobar que es útil y mide correctamente el concepto objetivo.
+
+Bajo estos parámetros, junto a los aportes de los diferentes estudios analizados se conjugan las consideraciones de literatura que permiten identificar la relevancia de la calidad de vida subjetiva. Que no solo es primordial en un año que vive una doble pandemia por el Covid-19 y las enfermedades de salud mental, sino que resaltara un camino más humano hacía el futuro.
+
+## Datos
+
+Las bases de datos usadas para la creacion del IHSM y las respectivas regresiones relacionadas al papel de los Estados en la calidad de vida subjetiva son de Our World in Data, DatosMacro y Banco Mundial. DatosMacro tiene como principal fuente las oficinas estadisticas nacionales de cada país y bancos centrales, por otro lado, el Banco Mundial recolecta los datos de manera independiente. Por último las bases de Our World in data corresponden a un compilado de las fuentes, Institute of Health Metrics and Evaluation (IHME), Global Burden of Disease (GBD), World Health Organization (WHO) International Classification of Diseases (ICD) y Global Health Observatory (GHO). Se tiene como principal objeto de analisis 185 países. Para resolver el primer objetivo de esta inevestigacion que es la construcción del IHSM, se usan 7 variables y 5180 observaciones. El segundo, la de las regreciones, tiene el IHSM y 6 variables más con 5180 observaciones. Ambas son longitudinales abarcando el periodo de 1990 hasta 2017.
+
+### Datos de las Estimaciones
+
+La primera estimación será el impacto de la politica fiscal sobre el IHSM y la segunda, el impacto del nivel de desarrollo, corrupción y desigualdad sobre el mismo índice. A continuación describimos las variables usadas (Tabla 1) y estadisticas descritivas respecto a cada regrecion.
+
+***Tabla 1 - Descripción de las Variables***
+
++----------------------------------+--------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| **Variable**s para la estimación | **Nombre**                     | Descripción                                                                                                                                                                                                                                               |
++==================================+================================+:==========================================================================================================================================================================================================================================================+
+| IDH                              | Índice de desarrollo humano    | Es un indicador del desarrollo humano de un país, hecho por el Programa de las Naciones Unidas para el Desarrollo. El cual analiza la evolución de dimensiones esenciales para el ser humano como la educación, los años de vida y el ingreso per cápita. |
++----------------------------------+--------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| GPS                              | Gasto público en salud         | Es el gasto publico por concepto de salud medido como porcentaje respecto al PIB.                                                                                                                                                                         |
++----------------------------------+--------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| GPE                              | Gasto público en educación     | Es el gasto publico por concepto de educación medido como porcentaje respecto al PIB.                                                                                                                                                                     |
++----------------------------------+--------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| GPD                              | Gasto público en defensa       | Es el gasto publico por concepto de defensa medido como porcentaje respecto al PIB.                                                                                                                                                                       |
++----------------------------------+--------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| IC                               | Índice de corrupción           | Es el índice de percepción de la corrupción elaborado por la Organización de Transparencia Internacional. Donde cero es una percepción alta de corrupción y 100 corresponde a lo contrario.                                                               |
++----------------------------------+--------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| GINId                            | Gini después de transferencias | Mide como es la distribución de ingresos después de impuestos. Este va de 0 a 1 entre más alto más desigualdad hay en el país.                                                                                                                            |
++----------------------------------+--------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| IHSM                             | Índice humano de salud mental  | Es el índice de medición de la calidad de vida subjetiva, creado para fines investigativos de este documento. Este va de 0 a 100, entre mayor sea la puntuación menor es la calidad de vida subjetiva en el país.                                         |
++----------------------------------+--------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+
+: Construcción propia
+
+#### 1. Politica Fiscal en el IHSM
+
+La primera regresión planteada usa los rubros del gasto público (efecto Estado) para explicar el IHSM, estos son el gasto público en salud, el gasto público en educación y el gasto público en defensa. Cada variable está en porcentaje respecto al PIB según sea el país, lo que permite su comparabilidad y uso para hacer estimaciones. En la Tabla 2 se muestran las estadísticas descriptivas de las principales variables explicativas, donde se observan tendencias a tener en cuenta como en el GPD, el cual posee un valor máximo que se considera Out slider al generar ruido dentro de los datos, lo cual afecta la media hacia arriba y distorsiona la desviación estándar quedando en 299.820 puntos porcentuales. Por lo que para evitar errores en los cálculos se decide no tomar en cuenta ese dato.
+
+***Tabla 2 - Estadísticas Descriptivas Politica Fiscal***
+
++----------+-------+-----------+---------------+------------+-------------+-------------+------------+
+| Variable | N     | Media (%) | Desviación.St | Minimo (%) | Pctl(25)(%) | Pctl(75)(%) | Máximo (%) |
++==========+=======+===========+===============+============+=============+=============+============+
+| GPS      | 4,077 | 8.319     | 5.016         | 0.550      | 4.330       | 11.600      | 42.050     |
++----------+-------+-----------+---------------+------------+-------------+-------------+------------+
+| GPE      | 4,265 | 4.525     | 3.222         | 0.570      | 2.990       | 5.430       | 44.330     |
++----------+-------+-----------+---------------+------------+-------------+-------------+------------+
+| GPD      | 4,055 | 7.208     | 299.820       | 0.000      | 1.130       | 2.750       | 19,093.450 |
++----------+-------+-----------+---------------+------------+-------------+-------------+------------+
+
+: Fuente Datos: Datosmacro
+
+#### 2. Desarrollo, desigualdad y corrupción en el IHSM
+
+En este caso se estima el efecto del desarrollo, la desigualdad y la percepcion de corrupcion sobre el IHSM, lo que permite entender como la situacion economica e institucional (corrupcion) afectan la calidad de vida subjetiva de un país. Los datos son indicadores producidos por organizaciones multilaterales y ONGs.
+
+***Tabla 3 - Estadísticas Descriptivas Desarrollo, Desigualdad y Corrupción***
+
++----------+-------+--------+---------------+--------+----------+----------+---------+
+| Variable | N     | Media  | Desviación.St | Minimo | Pctl(25) | Pctl(75) | Máximo  |
++==========+=======+========+===============+========+==========+==========+=========+
+| IDH      | 4,354 | 66.033 | 16.521        | 19.200 | 53.400   | 78.700   | 95.400  |
++----------+-------+--------+---------------+--------+----------+----------+---------+
+| IC       | 2,933 | 42.714 | 22.006        | 4.000  | 26.000   | 56.000   | 100.000 |
++----------+-------+--------+---------------+--------+----------+----------+---------+
+| GINId    | 1,502 | 38.749 | 9.118         | 22.900 | 31.700   | 45.100   | 65.800  |
++----------+-------+--------+---------------+--------+----------+----------+---------+
+
+### Construcción IHSM
+
+Acorde a la primera pregunta de investigación estas variables son los elementos para la construcción del IHSM. No obstante, no es posible categorizar las variables en relación a su dependencia, porque, el papel de estas es unicamente de medición.
+
++-----------------------------------------------+---------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------+
+| **Variable**s para la construcción del (IHSM) | Nombre                          | Descripción                                                                                                                                         |
++===============================================+=================================+=====================================================================================================================================================+
+| ANS                                           | Ansiedad per cápita             | Prevalencia de trastornos de ansiedad. Esta estandarizada por edad y género. Medida como un porcentaje con respecto a la población total.           |
++-----------------------------------------------+---------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------+
+| DP                                            | Depresión per cápita            | Prevalencia de trastornos depresivos. Esta estandarizada por edad y género. Medida como un porcentaje con respecto a la población total             |
++-----------------------------------------------+---------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------+
+| ESQ                                           | Esquizofrenia per cápita        | Prevalencia de esquizofrenia. Esta estandarizada por edad y género. Medida como un porcentaje con respecto a la población total                     |
++-----------------------------------------------+---------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------+
+| BI                                            | Bipolaridad per cápita          | Prevalencia del trastorno bipolar. Esta estandarizada por edad y género. Medida como un porcentaje con respecto a la población total.               |
++-----------------------------------------------+---------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------+
+| DA                                            | Desorden alimenticio per cápita | Prevalencia de trastornos alimenticios. Esta estandarizada por edad y género. Medida como un porcentaje con respecto a la población total           |
++-----------------------------------------------+---------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------+
+| AH                                            | Alcoholismo per cápita          | Consumo total de alcohol. Medida en litros de alcohol puro, estimaciones proyectadas mayores de 15 años.                                            |
++-----------------------------------------------+---------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------+
+| DR                                            | Drogadicción per cápita         | Cualquier trastorno mental por uso de sustancias. Esta estandarizada por edad y género. Medida como un porcentaje con respecto a la población total |
++-----------------------------------------------+---------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------+
+| SU                                            | Suicidios cada 100.000 personas | Muertes causadad por el suicidio por cada 100.000 habitantes.                                                                                       |
++-----------------------------------------------+---------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------+
+
+## Índice Humano de Salud Mental
+
+## Marco Metodologico
+
+Se implementan dos diferentes regresines lineales para analizar efectos de política fiscal, desarrollo y desigualdad. Esto ocurre por la necesidad de responder a dos preguntas diferentes en la comprobación de la intervención estatal y como esta afecta la calidad de vida respecto a la salud mental.
+
+La primera regresión plantea el uso de los diferentes gastos públicos para explicar la variable dependiente que es el IHSM. Donde se usará un modelo ARDL por la correlación existente entre los diferentes rubros del gasto Estatal, lo que permite resolver problemas de colinealidad, generando a su vez estadísticos cointegrados. La siguiente ecuación es la descripción básica del modelo usado para cada país de la muestra.
+
+$$
+IHSM_t = \varepsilon_0 + \varepsilon_1GPS_t + \varepsilon_2GPE_t + \varepsilon_4GPD_t + \epsilon_i
+$$
+
+Donde:
+
+$GPS$*=* Gasto Público en Salud
+
+$GPE$*=* Gasto Público en Educacion
+
+$GPD$*=* Gasto Público en Defensa
+
+La segunda regresión ya no solo busca como la intervención estatal afecta la calidad de vida por el estado de salud mental de su población, sino como el desarrollo de una nación, el nivel de corrupción percibido y la desigualdad pueden deteriorar de cierta forma el IHSM o no tener ningún efecto. El modelo usado en esta ocasión es el MCO, debido a que no se considera que existan problemas graves de correlación o situaciones adyacentes que necesiten una corrección para encontrar alguna relación lineal. A continuación, se encuentra la ecuación usada para los países de la muestra.
+
+$$
+IHSM_t = \beta_0 + \beta_{1}IDH + \beta{2}GINId + \beta_{3}IC + \epsilon_i
+$$
+
+Donde:
+
+$IDH$*=* Indice de Desarrollo
+
+$GINId$*=* Gini después de transferencias
+
+$IC$*=* Índice de Corrupción \#\# Resultados
+
+## Resultados
+
+## Conclusiones
+
+## Referencias
+
+Argyle, M. (1993). Psicología y la calidad de vida. *Intervención psicosocial*, *3*. <http://www.copmadrid.org/webcopm/publicaciones/social/1993/vol3/arti1.htm>
+
+Evans, S., Banerjee, S., Leese, M., & Huxley, P. (2007). The Impact of Mental Illness on Quality of Life: A Comparison of Severe Mental Illness, Common Mental Disorder and Healthy Population Samples. *Springer*, *16*(1), 17--29. <https://basesbiblioteca.uexternado.edu.co:2157/stable/pdf/27641251.pdf?ab_segments=0%252Fbasic_expensive_solr_cloud%252Fcontrol&refreqid=excelsior%3Af6b4c49e462fb773896152b113e98dd8>
+
+Pérez, G., Rodríguez, M., Domínguez, F., Cabeza, E., & Borrell, C. (2014). Indicadores para monitorizar la evolución de la crisis económica y sus efectos en la salud y en las desigualdades en salud. En *Gaceta Sanitaria* (Vol. 28, Número S1, pp. 124--131). Ediciones Doyma, S.L. <https://doi.org/10.1016/j.gaceta.2014.03.009>
+
+Schuschny, A., & Soto, H. (2009). *Guía metodológica Diseño de indicadores compuestos de desarrollo sostenible*.
+
+Verdugo, M. A., & Martín, M. (2002). Autodeterminación y calidad de vida en salud mental: dos conceptos emergentes. *Salud Mental*, *25*(4), 68--77.
+
+## Anexos
+
+### Codigo R
+
+```{r}
+# Librerias
+library("tidyverse")
+library("naniar")
+library("ggthemes")
+library("readxl")
+library("lubridate")
+library("dplyr")
+library("plm")
+library("stargazer")
+```
+
+```{r}
+# Datos
+datos_con_indice <- read_delim("Datos/IHSM3.csv",";")
+length(unique(datos_con_indice$paises_P))
+unique(datos_con_indice$ano)
+```
+
+```{r}
+# Datos descritivos Gasto Publicos
+
+resumen_paises_G <- datos_con_indice %>%
+   select(GPS,GPE,GPD)
+
+stargazer(as.data.frame(resumen_paises_G), type = "text", 
+          out = "global.text", 
+          title = "Tabla 2 - Estadística Descriptiva")
+```
+
+```{r}
+# Datos descritivos Desarrolo y desigualdad
+
+resumen_paises_D <- datos_con_indice %>%
+   select(IDH,IC,GINId)
+stargazer(as.data.frame(resumen_paises_D), type = "text", 
+          out = "global.text", 
+          title = "Tabla 2 - Estadística Descriptiva")
+
+```
